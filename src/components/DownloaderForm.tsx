@@ -23,9 +23,9 @@ export function DownloaderForm({ onSearch, isLoading }: DownloaderFormProps) {
     return (
         <Card className="w-full max-w-xl mx-auto border-none shadow-none bg-transparent">
             <CardHeader className="text-center px-0">
-                <CardTitle className="text-4xl font-bold tracking-tight sm:text-6xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500">
+                <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500">
                     Slideshare Downloader
-                </CardTitle>
+                </h1>
                 <CardDescription className="text-lg text-muted-foreground max-w-md mx-auto">
                     Download slides from Slideshare presentations in high quality. Just paste the URL below.
                 </CardDescription>

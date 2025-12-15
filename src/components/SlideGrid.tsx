@@ -154,7 +154,7 @@ export function SlideGrid({ slides, title }: SlideGridProps) {
                         <div className="aspect-[4/3] relative w-full overflow-hidden bg-muted">
                             <Image
                                 src={slide}
-                                alt={`Slide ${index + 1}`}
+                                alt={`Slide ${index + 1} of ${title || "Presentation"}`}
                                 fill
                                 className="object-contain"
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
